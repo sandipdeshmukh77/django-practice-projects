@@ -1,0 +1,16 @@
+{%extends 'testapp/base.html'%}
+{%block body_block%}
+<h1> {{book.title}} Books Details</h1>
+
+<ul>
+  <h2><li>{{book.title}}</li></h2>
+  <h2><li>{{book.author}}</li></h2>
+  <h2><li>{{book.pages}}</li></h2>
+  <h2><li>{{book.price}}</li></h2>
+</ul><br><br>
+<a href="/" class='btn btn-primary btn-lg'>Back to list</a>
+
+
+
+
+{%endblock%}

@@ -1,0 +1,17 @@
+
+h1{
+  color:red;
+  text-transform: capitalize;
+}
+body{
+  background:cyan;
+}
+label{
+  color:blue;
+font-size: 19px;
+  font-weight: bold;
+  }
+
+input,textarea{
+  border-radius:10px;
+}

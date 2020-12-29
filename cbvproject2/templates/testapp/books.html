@@ -1,0 +1,14 @@
+{%extends 'testapp/base.html'%}
+{%block body_block%}
+<h1> customise Details of Books Available</h1>
+{%for book in books %}
+<ul>
+  <li>{{book.title}}</li>
+  <li>{{book.author}}</li>
+  <li>{{book.pages}}</li>
+  <li>{{book.price}}</li>
+</ul>
+{%endfor%}
+
+
+{%endblock%}

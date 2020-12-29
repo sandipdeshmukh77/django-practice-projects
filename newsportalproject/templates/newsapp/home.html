@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static "css/demo.css" %}">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container" align=left>
+      <div class="jumbotron">
+        <h1 id='h11'>WELCOME TO JOHN'S NEWS PORTAL</h1>
+        <p>only place to get latest news updates</p>
+
+          <a class="btn btn-primary btn-lg" href="/newsapp/movienews" role="button">movie news</a>
+          <a class="btn btn-primary btn-lg" href="/newsapp/sportsnews" role="button">sports news</a>
+          <a class="btn btn-primary btn-lg" href="/newsapp/politicsnews" role="button">politics news</a>
+
+      </div>
+
+
+    </div>
+  </body>
+</html>

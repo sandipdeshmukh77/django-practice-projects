@@ -1,0 +1,11 @@
+{% extends 'testapp/base.html' %}
+
+{%block body_block%}
+
+<form method="post">
+  <h1>Do you comform Delete {{company.name}}!!!</h1>
+  <input type="submit"  class='btn btn-danger btn-lg' value="Delete">&nbsp&nbsp&nbsp&nbsp
+  <a href="/" class='btn btn-success btn-lg'>Cancle</a>
+  {%csrf_token%}
+</form>
+{% endblock %}

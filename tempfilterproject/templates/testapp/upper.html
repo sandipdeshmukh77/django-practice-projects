@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    {% for r in data_list %}
+    <ul>
+      <li>{{r.name|add:' Deshmukh'|upper}}</li>  <!--here we can apply multiple filer on same object by using "|" symbol-->
+      <li>{{r.addr|upper}}</li>
+      <li>{{r.subject|upper}}</li>
+      <li>{{r.dept|upper}}</li>
+      <li>{{r.date|date:"d-m-Y"}}</li>
+    </ul><hr>
+    {% endfor %}
+
+
+  </body>
+</html>

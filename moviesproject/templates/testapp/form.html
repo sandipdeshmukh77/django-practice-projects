@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container" align="center">
+      <form action="" method="post">
+        <h1>add movie</h1>
+        {{form.as_p}}
+        {%csrf_token%}
+        <input type="submit"  value="save">
+
+      </form>
+
+    </div>
+  </body>
+</html>

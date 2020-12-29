@@ -1,0 +1,15 @@
+h1{
+  color:red;
+}
+a{
+  font-size:25px;
+  color:yellow;
+}
+body{
+  background:cyan;
+}
+img{
+  height:500px;
+  border:2px solid red;
+  width:500px;
+}

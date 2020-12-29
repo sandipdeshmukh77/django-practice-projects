@@ -1,0 +1,24 @@
+
+body  {
+  background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+img{
+  height: 300px;
+  width: 30%;
+  border: 2px solid red;
+  margin:0 1%;
+}
+
+.container .jumbotron{
+  margin-top:100px;
+  background-color: cyan;
+}
+
+#h11{color:red;
+font-weight:bold}
+
+#h12{color:red;}
+li{color:yellow;}

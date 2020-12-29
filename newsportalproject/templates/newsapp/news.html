@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static "css/demo.css" %}">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <h1 id='h12'>{{heading}}</h1>
+    <ul>
+      <li>{{data1}}</li>
+      <li>{{data2}}</li>
+      <li>{{data3}}</li>
+    </ul>
+    <img src="{% static "images/image1.jpg "%}" alt="">
+    <img src="{% static "images/image2.jpg "%}" alt="">
+    <img src="{% static "images/image3.jpg "%}" alt="">
+
+  </body>
+</html>
